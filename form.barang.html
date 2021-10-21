@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(99, 66, 49);">Form Pemesanan Barang</h1>
+    <style>
+        body{
+            background-color:rgb(233, 183, 158)
+        }
+    </style>
+<form action="" method="get" enctype="multipart/form-data"></form>
+     <style>
+         fieldset{
+             background-color: rgb(231, 224, 222);
+             text-align: left;
+         }
+     </style>
+   <fieldset>
+    <div class="bungkus">
+        <div class="img-col">
+            <img src="sepatu.jpg" width="200" height="200" alt="">
+        </div>
+    </div>
+       <legend>YOUR INFORMATION</legend>
+       <label for="title">Tittle Here</label>
+       <input type="text" name="Tittle-here">
+       <br>
+       <label for="Description">Description</label>
+       <textarea name="Description" rows="10" cols="20"></textarea>
+       <br>
+       <label for="Account-number">Account Number</label>
+       <input type="number" name="Account-number">
+       <br>
+       <label for="Bank">Bank</label>
+       <select>
+       <option value="Bank1">Mandiri</option>
+       <option value="Bank2">BCA</option>
+       <option value="Bank3">HSBC</option>
+       </select>
+    </fieldset>
+    <fieldset>
+        <legend>YOUR CONTACT</legend>
+       <label for="send to mobile phone">Send To Mobile Phone</label>
+       <input type="number" name="send to mobile phone">
+       <br>
+       <label for="send-to-email">Send To Email</label>
+       <input type="text" name="send-to-email">
+       <br>
+       <input type="submit" value="Send">
+       <input type="reset" value="Reset">
+   </fieldset>
+
+
+</body>
+</html>
