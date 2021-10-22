@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1><b>Black Goose Bistro|Pizza-On-Demand</b></h1>
+    <br>Our 12 wood-fired Pizzas are available for delivery.</br>
+    <br>Build your custom pizza and we'll deliver it within an hour</br>
+   <h2>Your information</h2>
+</head>
+<body>
+<form action="thankyou.html" method="post">
+    <style>
+        h2{
+            background-color:blanchedalmond
+         }
+        table{
+            background-color: blanchedalmond;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+        img{
+            float: right;
+        }
+    </style>
+    <img src="pizza.jpg">
+<table>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="name" id="name" placeholder="Your name"></td>
+    </tr>
+    <tr>
+        <td>Addres</td>
+        <td><input type="text" name="Addres" id="Addres" placeholder="Your addres"></td>
+    </tr>
+    <tr>
+        <td>Telephone Number</td>
+        <td><input type="number" name="Telephone_number" id="Telephone_Number" placeholder="Your number"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="email" id="email" placeholder=" Enter your email"></td>
+    </tr>
+    <tr>
+        <td>Delivery Instruction</td>
+        <td><textarea name="Delivery_Instruction" id="Delivery_Instruction" placeholder="Tell us"></textarea></td>
+    </tr>
+</table>
+</div>
+<h2>DESIGN YOUR DREAM PIZZA :</h2>
+    <table>
+    <tr>
+        <td>Crust(choose one)</td>
+        <td><input type="radio" name="crust" id="crust"> classic white
+            <input type="radio" name="crust" id="crust"> Multigrain
+            <input type="radio" name="crust" id="crust"> cheese-stuffed crust
+            <input type="radio" name="crust" id="crust"> Gluten free
+        </td>
+    </tr>
+    <tr>
+        <td>Toppings(choose as many as you want)</td>
+        <td><input type="checkbox" name="toppings" id="toppings"> Red sauce
+            <input type="checkbox" name="toppings" id="toppings"> White sauce
+            <input type="checkbox" name="toppings" id="toppings"> Mozzarella cheese
+            <input type="checkbox" name="toppings" id="toppings"> Pepperoni
+            <input type="checkbox" name="toppings" id="toppings"> Mushrooms
+            <input type="checkbox" name="toppings" id="toppings"> Peppers
+            <input type="checkbox" name="toppings" id="toppings"> Anchovies
+        </td>
+    </tr>
+    <tr>
+        <td>How many Pizza</td>
+        <td><select name="how_many" id="how many">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+    </select>
+    </td>
+</tr>
+</table>
+<a class="btn-checkout" href="thankyou.html">Bring me a pizza</a>
+<input type="reset" value="reset">
+</form>
+</body>
+</html>
