@@ -1,0 +1,70 @@
+section{
+    width: 100%;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color:bisque;
+    padding: 0px 5%;
+}
+nav ul{
+    padding: 40px;
+    list-style: none;
+    display: flex;
+}
+fieldset{
+    background-image: url('../tugas pw/card.jpg');
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: black;
+}
+
+.profil{
+    width: 20%;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    color: black;
+}
+
+legend{
+    color: black;
+}
+
+.category{
+    width: 30%;
+    position: absolute;
+    text-align: right;
+    top: 100px;
+    right: 20px;
+    color: black;
+}
+
+h2{
+    text-decoration: underline;
+}
+.container-atas{
+    width: 100%; 
+    position: absolute; 
+    text-align: right; 
+    bottom: 10px; 
+    right: 20px;"
+}
+.container-bawah{
+    width: 150%; 
+    position: absolute; 
+    text-align: right; 
+    bottom: 10px; 
+    right: 20px;"
+}
